@@ -1,0 +1,16 @@
+class Teacher {
+  constructor(info) {
+    this.info = info;
+  }
+
+  getInfo(key) {
+    return this.info[key];
+  }
+
+}
+
+const teacher = new Teacher({
+  name: 'hsq',
+  age: 25,
+  gender: 'male'
+});

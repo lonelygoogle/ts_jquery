@@ -418,14 +418,6 @@ class Teacher {
   }
 
 }
-
-const teacher = new Teacher({
-  name: 'hsq',
-  age: 25,
-  gender: 'male'
-});
-const test = teacher.getInfo('age');
-console.log(teacher.getInfo('gender'));
 },{}]},{},["81fb41b9532424c7eb7d20a641a4a0cc","ec80e10fe64d5bbfa771a2e2e94b1cc9"], null)
 
 //# sourceMappingURL=page.da135fad.js.map
